@@ -3,9 +3,6 @@ import { DiscordSDK } from "@discord/embedded-app-sdk";
 import rocketLogo from "/rocket.png";
 import "./style.css";
 
-console.log("Client ID:", process.env.VITE_DISCORD_CLIENT_ID);
-console.log("Client Secret:", process.env.DISCORD_CLIENT_SECRET);
-
 // Will eventually store the authenticated user's access_token
 let auth;
 

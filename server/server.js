@@ -6,9 +6,6 @@ dotenv.config({ path: "../.env" });
 const app = express();
 const port = 3001;
 
-console.log("Client ID:", process.env.VITE_DISCORD_CLIENT_ID);
-console.log("Client Secret:", process.env.DISCORD_CLIENT_SECRET);
-
 // Allow express to parse JSON bodies
 app.use(express.json());
 
